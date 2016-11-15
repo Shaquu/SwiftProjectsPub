@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD7BE931DD14C68009D0CD4 /* Shortkeys.c in Sources */ = {isa = PBXBuildFile; fileRef = FAD7BE921DD14C68009D0CD4 /* Shortkeys.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD7BE8F1DD14C68009D0CD4 /* Shortkeys.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shortkeys.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD7BE921DD14C68009D0CD4 /* Shortkeys.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Shortkeys.c; sourceTree = "<group>"; };
+		FAD7BE941DD14C68009D0CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD7BE8B1DD14C67009D0CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD7BE851DD14C67009D0CD4 = {
+			isa = PBXGroup;
+			children = (
+				FAD7BE911DD14C68009D0CD4 /* Shortkeys */,
+				FAD7BE901DD14C68009D0CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD7BE901DD14C68009D0CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7BE8F1DD14C68009D0CD4 /* Shortkeys.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD7BE911DD14C68009D0CD4 /* Shortkeys */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7BE921DD14C68009D0CD4 /* Shortkeys.c */,
+				FAD7BE941DD14C68009D0CD4 /* Info.plist */,
+			);
+			path = Shortkeys;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAD7BE8C1DD14C67009D0CD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAD7BE8E1DD14C67009D0CD4 /* Shortkeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD7BE971DD14C68009D0CD4 /* Build configuration list for PBXNativeTarget "Shortkeys" */;
+			buildPhases = (
+				FAD7BE8A1DD14C67009D0CD4 /* Sources */,
+				FAD7BE8B1DD14C67009D0CD4 /* Frameworks */,
+				FAD7BE8C1DD14C67009D0CD4 /* Headers */,
+				FAD7BE8D1DD14C67009D0CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shortkeys;
+			productName = Shortkeys;
+			productReference = FAD7BE8F1DD14C68009D0CD4 /* Shortkeys.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD7BE861DD14C67009D0CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Tadeusz Wyrzykowski";
+				TargetAttributes = {
+					FAD7BE8E1DD14C67009D0CD4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NH9NP55RJ4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAD7BE891DD14C67009D0CD4 /* Build configuration list for PBXProject "Shortkeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAD7BE851DD14C67009D0CD4;
+			productRefGroup = FAD7BE901DD14C68009D0CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD7BE8E1DD14C67009D0CD4 /* Shortkeys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD7BE8D1DD14C67009D0CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD7BE8A1DD14C67009D0CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD7BE931DD14C68009D0CD4 /* Shortkeys.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAD7BE951DD14C68009D0CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAD7BE961DD14C68009D0CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAD7BE981DD14C68009D0CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NH9NP55RJ4;
+				INFOPLIST_FILE = Shortkeys/Info.plist;
+				MODULE_NAME = pl.shaq.Shortkeys;
+				MODULE_START = Shortkeys_start;
+				MODULE_STOP = Shortkeys_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.shaq.Shortkeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		FAD7BE991DD14C68009D0CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NH9NP55RJ4;
+				INFOPLIST_FILE = Shortkeys/Info.plist;
+				MODULE_NAME = pl.shaq.Shortkeys;
+				MODULE_START = Shortkeys_start;
+				MODULE_STOP = Shortkeys_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.shaq.Shortkeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD7BE891DD14C67009D0CD4 /* Build configuration list for PBXProject "Shortkeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD7BE951DD14C68009D0CD4 /* Debug */,
+				FAD7BE961DD14C68009D0CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD7BE971DD14C68009D0CD4 /* Build configuration list for PBXNativeTarget "Shortkeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD7BE981DD14C68009D0CD4 /* Debug */,
+				FAD7BE991DD14C68009D0CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD7BE861DD14C67009D0CD4 /* Project object */;
+}
